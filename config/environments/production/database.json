@@ -4,19 +4,15 @@
     "default": {
       "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client": "sqlite",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "srv": "${process.env.DATABASE_SRV || false}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}",
-        "ssl": "${process.env.DATABASE_SSL || false}"
+        "client": "postgres",
+        "host": "${process.env.DATABASE_HOST || 'ec2-54-217-206-65.eu-west-1.compute.amazonaws.com'}",
+        "port": "${process.env.DATABASE_PORT || 5432}",
+        "database": "${process.env.DATABASE_NAME || 'd75rc1s5b24a3j'}",
+        "username": "${process.env.DATABASE_USERNAME || 'cpykouhocxssap'}",
+        "password": "${process.env.DATABASE_PASSWORD || '33170e62826617826a956d61c48bfced5fea6cbc2ff912e7f8759109dfe2cb7f'}",
+        "ssl": "${process.env.DATABASE_SSL || true}"
       },
-      "options": {
-        "ssl": "${process.env.DATABASE_SSL || false}",
-        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}"
-      }
+      "options": {}
     }
   }
 }
