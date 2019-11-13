@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "curriculumvitas",
+  "info": {
+    "name": "curriculumvita",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "typeof": {
+      "enum": [
+        "experience",
+        "formation",
+        "hobby"
+      ],
+      "type": "enumeration"
+    },
+    "date_start": {
+      "type": "date"
+    },
+    "date_end": {
+      "type": "date"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}
