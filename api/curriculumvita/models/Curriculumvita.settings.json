@@ -14,9 +14,6 @@
     "comment": ""
   },
   "attributes": {
-    "content": {
-      "type": "string"
-    },
     "typeof": {
       "enum": [
         "experience",
@@ -39,6 +36,9 @@
     },
     "Title": {
       "type": "string"
+    },
+    "content": {
+      "type": "text"
     }
   }
 }
