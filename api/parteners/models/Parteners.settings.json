@@ -20,9 +20,6 @@
     "surname": {
       "type": "string"
     },
-    "gender": {
-      "type": "string"
-    },
     "photo": {
       "model": "file",
       "via": "related",
@@ -36,6 +33,14 @@
     },
     "thum_name": {
       "type": "string"
+    },
+    "gender": {
+      "enum": [
+        "female",
+        "male",
+        "other"
+      ],
+      "type": "enumeration"
     }
   }
 }

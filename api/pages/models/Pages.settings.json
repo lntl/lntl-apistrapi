@@ -17,11 +17,16 @@
     "title": {
       "type": "string"
     },
-    "slug": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext"
+    },
+    "slug": {
+      "enum": [
+        "home",
+        "projet",
+        "shop"
+      ],
+      "type": "enumeration"
     }
   }
 }
