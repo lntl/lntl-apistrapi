@@ -17,11 +17,11 @@
     "title": {
       "type": "string"
     },
-    "content": {
-      "type": "text"
-    },
     "slug": {
       "type": "string"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }

@@ -34,11 +34,11 @@
     "linkedin": {
       "type": "string"
     },
-    "Title": {
-      "type": "string"
-    },
     "content": {
-      "type": "text"
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

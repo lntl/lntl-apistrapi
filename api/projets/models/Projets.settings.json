@@ -14,11 +14,8 @@
     "comment": ""
   },
   "attributes": {
-    "titre": {
+    "title": {
       "type": "string"
-    },
-    "content": {
-      "type": "text"
     },
     "thumbs": {
       "model": "file",
@@ -30,6 +27,9 @@
     },
     "thum_name": {
       "type": "string"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
